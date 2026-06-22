@@ -4,22 +4,22 @@ cask "n8nctl-cli" do
 
   on_macos do
     on_intel do
-      sha256 "f9ff358b81606dc074d6ef949034368bc65291b914f7c914ae2f0072f24d79ea"
+      sha256 "f6f2360573a995a09f8922f24cd5cd88a6b40b96f3862ebbe76119a625b5415d"
       url "https://github.com/jjuanrivvera/n8n-cli/releases/download/v#{version}/n8n-cli_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "cc99b5457ba080e9c61d774869088a1fe4f237a7be01fdaf4b26e2bd4376a190"
+      sha256 "2a2cc66873fca5cc081d2f98523f8d281b9c3bc429f21254796ef7c24b55dac7"
       url "https://github.com/jjuanrivvera/n8n-cli/releases/download/v#{version}/n8n-cli_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "29e467f1befb2ed5c04c9b3f507b50ff2cfae386e8a26b1044186cdedb70a768"
+      sha256 "54f5c4e6fef3e5c1568c50784321cbaac4c391a3258e3d96929eeed193fb7f28"
       url "https://github.com/jjuanrivvera/n8n-cli/releases/download/v#{version}/n8n-cli_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "552d6edf278082bac5b116a8f755f0525aeedb5a1bae6e2d209ea23f2dcfdd5b"
+      sha256 "7bdb00f129b72f6d8fd3cf007b9f4d1e767b18b0bb6e67f163408f7d4a95eccd"
       url "https://github.com/jjuanrivvera/n8n-cli/releases/download/v#{version}/n8n-cli_#{version}_linux_arm64.tar.gz"
     end
   end
